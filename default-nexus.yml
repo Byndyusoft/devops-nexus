@@ -1,0 +1,13 @@
+---
+core:
+  baseUrl: ${BASE_URL:""}
+  userAgentCustomization: "Repository"
+  connectionTimeout: 20
+  connectionRetryAttempts: 2
+security:
+  anonymousAccess: false
+  pruneUsers: false
+repository:
+  pruneBlobStores: false
+  pruneCleanupPolicies: false
+  pruneRepositories: false
