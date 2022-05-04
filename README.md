@@ -1,5 +1,8 @@
 ### Image nexus
 
+#### Description
+Installed nexus plugin(nexus-casc-plugin) and net-tools package
+
 #### Used nexus image
 https://hub.docker.com/r/sonatype/nexus3/
 
