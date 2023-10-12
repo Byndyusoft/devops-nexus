@@ -13,13 +13,13 @@ https://github.com/AdaptiveConsulting/nexus-casc-plugin
 - `docker login`
 
 #### Build image
-- `docker build -t byndyusoft/nexus3:3.58.1 .`
+- `docker build -t byndyusoft/nexus3:3.61.0 .`
 
 #### Run image
-- `docker run --rm -it byndyusoft/nexus3:3.58.1 bash`
+- `docker run --rm -it byndyusoft/nexus3:3.61.0 bash`
 
 #### Push image
-- `docker push byndyusoft/nexus3:3.58.1`
+- `docker push byndyusoft/nexus3:3.61.0`
 
 #### Docker logout
 - `docker logout`
