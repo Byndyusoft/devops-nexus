@@ -16,7 +16,7 @@ https://github.com/AdaptiveConsulting/nexus-casc-plugin
 - `docker build -t byndyusoft/nexus3:3.65.0 .`
 
 #### Run image
-- `docker run --rm -it byndyusoft/nexus3:3.65.0 bash`
+- `docker run --rm byndyusoft/nexus3:3.65.0`
 
 #### Push image
 - `docker push byndyusoft/nexus3:3.65.0`
