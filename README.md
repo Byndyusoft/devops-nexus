@@ -7,19 +7,19 @@ Installed nexus plugin(nexus-casc-plugin) and net-tools package
 https://hub.docker.com/r/sonatype/nexus3/
 
 #### Added nexus plugin
-https://github.com/AdaptiveConsulting/nexus-casc-plugin
+https://github.com/sonatype-nexus-community/nexus-casc-plugin
 
 #### Docker login
 - `docker login`
 
 #### Build image
-- `docker build -t byndyusoft/nexus3:3.68.1 .`
+- `docker build -t byndyusoft/nexus3:3.78.1 .`
 
 #### Run image
-- `docker run --rm byndyusoft/nexus3:3.68.1`
+- `docker run --rm byndyusoft/nexus3:3.78.1`
 
 #### Push image
-- `docker push byndyusoft/nexus3:3.68.1`
+- `docker push byndyusoft/nexus3:3.78.1`
 
 #### Docker logout
 - `docker logout`

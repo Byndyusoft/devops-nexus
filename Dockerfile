@@ -1,4 +1,4 @@
-FROM sonatype/nexus3:3.68.1
+FROM sonatype/nexus3:3.78.1
 
 USER root
 
@@ -11,6 +11,6 @@ RUN mkdir -p /opt/nexus-casc/
 ENV NEXUS_CASC_CONFIG=/opt/nexus-casc/nexus-casc-config.yml
 COPY ./default-nexus.yml /opt/nexus-casc/nexus-casc-config.yml
 
-COPY ./nexus-casc-plugin-3.64.0-04-bundle.kar /opt/sonatype/nexus/deploy/
+COPY ./nexus-casc-plugin-3.70.1-02-bundle.kar /opt/sonatype/nexus/deploy/
 
 USER nexus
