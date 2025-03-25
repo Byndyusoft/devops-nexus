@@ -1,28 +1,23 @@
 ### Image nexus
 
 #### Description
-Installed nexus plugin(nexus-casc-plugin) and net-tools package
+Installed net-tools package and additional nexus settings
 
 #### Used nexus image
 https://hub.docker.com/r/sonatype/nexus3/
 
-#### Added nexus plugin
-https://github.com/AdaptiveConsulting/nexus-casc-plugin
-
-#### Docker login
+#### Manual build and push
+### Docker login
 - `docker login`
 
-#### Build image
-- `docker build -t byndyusoft/nexus3:3.77.2 .`
+### Build image
+- `docker build -t byndyusoft/nexus3:3.78.2 .`
 
-#### Run image
-- `docker run --rm byndyusoft/nexus3:3.77.2`
+### Run image
+- `docker run --rm byndyusoft/nexus3:3.78.2`
 
-#### Push image
-- `docker push byndyusoft/nexus3:3.77.2`
+### Push image
+- `docker push byndyusoft/nexus3:3.78.2`
 
-#### Docker logout
+### Docker logout
 - `docker logout`
-
-### Setting "IntelliJ IDEA" for build nexus plugin
-![](docs/setting_build.png)
