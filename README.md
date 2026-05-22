@@ -11,13 +11,13 @@ https://hub.docker.com/r/sonatype/nexus3/
 - `docker login`
 
 ### Build image
-- `docker build -t byndyusoft/nexus3:3.86.2 .`
+- `docker build -t byndyusoft/nexus3:3.92.2 .`
 
 ### Run image
-- `docker run --rm byndyusoft/nexus3:3.86.2`
+- `docker run --rm byndyusoft/nexus3:3.92.2`
 
 ### Push image
-- `docker push byndyusoft/nexus3:3.86.2`
+- `docker push byndyusoft/nexus3:3.92.2`
 
 ### Docker logout
 - `docker logout`
